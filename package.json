@@ -1,0 +1,25 @@
+{
+  "name": "kereta",
+  "version": "1.0.0",
+  "description": "ini adalah projek pemesanan tiket kereta api berbasis php native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pemesanan",
+    "tiket",
+    "kereta",
+    "api"
+  ],
+  "author": "vodonesia",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yudiart/Pemesanan-tiket-kereta-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yudiart/Pemesanan-tiket-kereta-api/issues"
+  },
+  "homepage": "https://github.com/yudiart/Pemesanan-tiket-kereta-api#readme"
+}
