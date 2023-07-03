@@ -1,7 +1,7 @@
 # Sistem Pemesanan Tiket Kereta Api
 
 ## Demo
-![](assets/image/home.png)
+![](assets/image/home.jpeg)
 
 ## Login user
 Hak akses level Admin/user
