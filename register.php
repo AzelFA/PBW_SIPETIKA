@@ -8,10 +8,10 @@
 					<div class="col-sm-2"></div>
 					<div class="col-sm-8">
 						<div class="form-group">
-							<input type="text" name="email" placeholder="email">
+							<input type="text" name="email" placeholder="Username">
 						</div>
 						<div class="form-group">
-							<input type="password" name="password" placeholder="password">
+							<input type="password" name="password" placeholder="Password">
 						</div>
 						<input class="btn btn-primary" type="submit" name="btn" value="Register">	
 					</div>
