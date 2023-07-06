@@ -32,4 +32,8 @@ Admin
 * Edit Schedule
 * Delete Schedule
 * Validation Order
+<<<<<<< HEAD
 * Log Validation
+=======
+* Log Validation
+>>>>>>> 30cf2a218ad580b38d6f74c4422c630479587079
