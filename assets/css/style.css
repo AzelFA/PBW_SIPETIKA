@@ -1,78 +1,164 @@
-*{
-	margin:0;
-	padding:0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-.wrapper{
-	min-height:800px;
+.wrapper {
+  min-height: 10px;
 }
-.header{
-	border-radius:0px;
+.wrapper h4 {
+  font-weight: bold; /* Logo font weight */
+  font-size: 2rem;
 }
-
-.box-search{
-	min-height:300px;
-	border-radius:20px ;
-	margin-top:-70px;
+.hero {
+  padding: 60px 0;
 }
 
-
-.form-login{
-	border:1px solid black;
-}
-footer{
-  margin-top:40px;
-  min-height:100px;
-	text-align: justify;
-	border:1px solid black;
-	background:#2A2222;
-	color:white;
+.hero h1 {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
 
-.login {
-  padding: 1em;
-  margin: 2em auto;
-  width: 17em;
-  background: #fff;
-  border-radius: 3px;
+.feature-item {
+  margin: 0 auto;
+  text-align: center;
+  border: 1.5px solid #c1c0c0;
+  border-radius: 1.5rem;
+  background-color: #e9ecefab;
+  padding: 1.5rem;
+  margin-bottom: 0.5rem;
 }
- 
-label {
-  font-size: 10pt;
-  color: #555;
+
+.feature-item h3 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
- 
-input[type="text"],
-input[type="password"],
-textarea {
-  padding: 8px;
-  width: 95%;
-  background: #efefef;
-  border: 0;
-  font-size: 10pt;
-  margin: 6px 0px;
+
+.feature-item p {
+  font-size: 16px;
 }
- 
+
+.header {
+  border-radius: 0px;
+  padding-top: 1rem;
+}
+
+.box-search {
+  min-height: 300px;
+  border-radius: 20px;
+  margin-top: -70px;
+}
+
 .tombol {
-  background: #3498db;
+  background: #ffffff;
   color: #fff;
   border: 0;
   padding: 5px 8px;
   margin: 20px 0px;
 }
 
-.box-admin{
-  height:900px;
+.box-admin {
+  height: 900px;
 }
 
-
-.table-payment{
+.table-payment {
   max-height: 600px;
-  background:#2a2a2a;
-  border-radius:10px;
+  background: #2a2a2a;
+  border-radius: 10px;
   overflow-x: auto;
 }
-.table-payment td, .table-payment th {
-  color:white;
+.table-payment td,
+.table-payment th {
+  color: white;
+}
+
+.container {
+  max-width: 1500px; /* Maximum width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.container .jumbotron box-search {
+  background-color: #555;
+}
+.box-search {
+  margin-top: 3rem; /* Hapus margin-top yang sebelumnya */
+}
+
+.box-search input[type="text"] {
+  width: 100%; /* Full width for the search input */
+  padding: 10px; /* Padding for the search input */
+  border-radius: 4px; /* Border radius for the search input */
+  border: 1px solid #ccc; /* Border color for the search input */
+}
+
+.box-search input[type="submit"] {
+  background-color: #924610; /* Background color for the search button */
+  color: #fff; /* Text color for the search button */
+  border: none; /* Remove border from the search button */
+}
+
+/* Table Styles */
+.table {
+  margin-top: 50px; /* Top margin for the table */
+}
+
+.table th,
+.table td {
+  padding: 10px; /* Padding for table cells */
+  text-align: left; /* Align text to the left in table cells */
+  border-bottom: 1px solid #a14c07; /* Bottom border for table cells */
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #bc6b1a; /* Background color */
+  padding: 10px 20px; /* Padding around navbar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.283); /* Add shadow */
+}
+
+.navbar-brand {
+  color: #fff; /* Text color for navbar brand */
+  font-size: 24px; /* Logo font size */
+  font-weight: bold; /* Logo font weight */
+}
+
+.nav-link {
+  color: #fff !important; /* Text color for navbar links */
+}
+
+.navbar-toggler-icon {
+  width: 20px; /* Toggler icon width */
+  height: 2px; /* Toggler icon height */
+  background-color: #333; /* Toggler icon color */
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px; /* Margin between menu items */
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px; /* Menu item font size */
+  color: #000000; /* Menu item color */
+  transition: color 0.3s; /* Add transition effect to color change */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff; /* Menu item hover color */
+}
+
+.navbar-nav .active .nav-link {
+  color: #ffffff; /* Active menu item color */
+}
+
+/* Optional: Add custom styles for logout link */
+.form-inline .nav-link:last-child {
+  color: #fffdfe; /* Logout link color */
 }

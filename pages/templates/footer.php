@@ -1,9 +1,11 @@
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 <footer>
 	<div class="footer">
 		<div class="container">
 			<div class="col-sm-12 mt-5">
 				<div class=" text-center">
-					<p>Copyright &copy; <?php  echo date('Y');?></p>
+					<p>Copyright &copy; <?php  echo date('Y');?> <a href="" target="_blank">Kelompok 2</a></p>
+
 				</div>
 			</div>
 		</div>

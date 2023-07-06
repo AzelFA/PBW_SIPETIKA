@@ -56,7 +56,7 @@ $sql = "SELECT jadwal.asal,jadwal.tujuan,
                       <td><?= $data['tujuan']; ?></td>                      
                       <td><?= $data['jml_penumpang']; ?></td>
                       <td><?= $data['limit_penumpang']; ?></td>
-                      <td><?= (int)$data['limit_penumpang'] - (int)$data['jml_penumpang']; ?></td>
+                      <td><?= intval($data['limit_penumpang']) - intval($data['jml_penumpang']); ?></td>
                   </tr>
               <?php }
               ?>

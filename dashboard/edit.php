@@ -48,7 +48,7 @@ require 'navbar.php';
 							</div>
 						</div>
 						<input type="submit" class="btn btn-primary" name="btn-edit" value="submit">
-						<p>Lorem ipsum dolor sit amet <a href="jadwal.php">Back</a></p>
+						<p><a href="jadwal.php">Back</a></p>
 					</div>
 				</form>
 			</div>

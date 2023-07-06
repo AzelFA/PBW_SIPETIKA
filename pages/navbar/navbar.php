@@ -1,6 +1,7 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<link rel="stylesheet" href="style.css">
+<nav class="navbar navbar-expand-lg">
 	<div class="container">
-		<a class="navbar-brand" href="index.php">SIPETIKA</a>
+		<a class="navbar-brand" href="index.php">🚇 SIPETIKA</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    	<span class="navbar-toggler-icon"></span>
 	  	</button>
@@ -13,7 +14,7 @@
 					</li>
 				<?php }else{?>
 					<li class="nav-item active">
-						<a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
 					</li>
 					
 				<?php } ?>
@@ -24,7 +25,7 @@
 				<?php  
 					if(isset($_SESSION['status'])) {
 						if ($_SESSION['level'] ==='admin') {
-							echo '<a href="logout.php" class="nav-link">Logout</a>';
+							echo '<a href="../logout.php" class="nav-link">Logout</a>';
 						}else{
 							echo '<a href="logout.php" class="nav-link">Logout</a>';			
 						}

@@ -1,10 +1,11 @@
+
 <?php 
 	include 'header.php';
   include 'sidebar.php';
   include 'navbar.php'; 
  ?>
  <?php if ($_SESSION['level'] === 'user') { ?>
-  <!-- Begin Page Content -->
+  <!-- Begin Page Content -->             
   <div class="container-fluid">
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
       <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>

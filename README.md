@@ -1,7 +1,7 @@
 # Sistem Pemesanan Tiket Kereta Api
 
 ## Demo
-![](assets/image/home.jpeg)
+![](assets/image/home.png)
 
 ## Login user
 Hak akses level Admin/user
@@ -35,12 +35,8 @@ Admin
 * Log Validation
 
 
-## Nama Kelompok
-* Aqmarina Shabihah			    2110631250030
-* Azel Fabian Azmi			    2110631250033
-* Diah Novianti				    2110631250036
-* Gabrielle Ahmad Wicaksono		2110631250039
+## Authors.
+0
 
-
-
+* **Mochamad Yudi Sobari** - *Newbie Web Developers* - [VODONESIA](https://vodonesia.id)
 Projek ini untuk memenuhi tugas Matakuliah Pemrograman Berbasis Website

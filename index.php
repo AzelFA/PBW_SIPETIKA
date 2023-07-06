@@ -16,15 +16,54 @@
         $SQL = mysqli_query($conn, "select * from jadwal ORDER BY id DESC");
     }
  ?>
+ <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 <div class="wrapper">
 	<div class="jumbotron text-center bg-warning header">
-		<div class="text-white">
-			<h4>Sistem pemesanan tiket kereta api</h4>
-			<p>Untuk memenuhi tugas perkuliahan.</p>
+			<section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                <h1>PESAN TIKET SEKARANG 🚆</h1>
+                <p>Selamat Datang Di SIPETIKA !! Selamat Menikmati Layanan Kami dan Semoga Perjalanan Anda Lancar dan Menyenangkan!.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/image/kereta.jpg" alt="Hero Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>        
+
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="feature-item">
+                        <i class="fas fa-search"></i>
+                        <h3>Pesan Tiket</h3>
+                        <p> Pesan tiket sekarang dengan mudah, cepat, praktis dan aman.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature-item">
+                        <i class="fas fa-ticket-alt"></i>
+                        <h3>Bayar</h3>
+                        <p> Bayar pesanan anda dengan memasukan kode booking yang telah disediakan.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Nikmati Perjalanan</h3>
+                        <p> Nikmati perjalanan anda dengan layanan yang kami sediakan untuk anda.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 		</div>
 	</div>
 	<div class="container">
-		<div class="jumbotron box-search bg-light">
+		<div class="jumbotron box-search ">
 			<div class="col-sm-12  overflow-auto">
 				<div class="container">
 					<h4>Jadwal Kereta Api</h4>

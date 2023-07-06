@@ -26,10 +26,10 @@
 
 		$jml = mysqli_query($conn,"SELECT * from k_tujuan where id_jadwal='$id_jadwal'");
 		while ($row = mysqli_fetch_array($jml)) {
-			 $totals = (int)$row['jml_penumpang'] + (int)$jml_penumpang;
+			 $totals = $row['jml_penumpang'] + $jml_penumpang;
 			 $sql4 = "UPDATE k_tujuan SET jml_penumpang=$totals WHERE id_jadwal= +'$id_jdwl'";
 			 if ($row['jml_penumpang'] > $row['limit_penumpang']) {
-			 	echo 'JUMLAH PENUMPANG SUDAH MELEBIHI, SILAHKAN ORDER KERETA LAIN';
+			 	echo 'error';
 			 }else{
 
 				$res3 = mysqli_query($conn, $sql4);	
@@ -62,8 +62,8 @@
 <div class="wrapper">
 	<div class="jumbotron text-center bg-warning header">
 		<div class="text-white">
-			<h4>Sistem pemesanan tiket kereta api</h4>
-			<p>Untuk memenuhi tugas perkuliahan.</p>
+			<h4>PESAN TIKET SEKARANG</h4>
+			<p>Selamat Datang Di SIPETIKA !! Selamat Menikmati Layanan Kami dan Semoga Perjalanan Anda Lancar dan Menyenangkan!</p>
 		</div>
 	</div>
 	<div class="container">
