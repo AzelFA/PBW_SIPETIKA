@@ -1,4 +1,6 @@
-# Sistem Pemesanan Tiket Kereta Api
+# Sistem Pemesanan Tiket Kereta Api (SIPETIKA)
+
+[SKPL Kelompok 9](SKPL_9_SIPETIKA.docx.pdf)
 
 ## Demo
 ![](assets/image/home.png)
